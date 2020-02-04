@@ -20,3 +20,25 @@ body{
     padding-top: 20px;
     color: rgb(8, 8, 7);
   }
+
+  
+  .select{
+    font-size: 14px;
+    text-align: center;
+    background-color: darkturquoise;
+  
+  }
+  
+  #result{
+    color:red;
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .calculatebutton{
+    radius: 20px;
+    color: red;
+    font-size: 15px;
+    border-radius: 22px;
+    border-color: #879ca8;
+  }
