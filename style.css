@@ -7,3 +7,16 @@ body{
     font-size: 30px;
     text-align: center;
   }
+  
+  .mycalculator{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .values{
+    padding: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(8, 8, 7);
+  }
