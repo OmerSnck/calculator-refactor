@@ -10,3 +10,6 @@ function calculateHandler(event) {
   // return true for the browser
   return true;
 }
+
+document.querySelector("#result").innerHTML = calculate;
+}
