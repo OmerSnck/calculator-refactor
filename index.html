@@ -1,16 +1,36 @@
 <html>
 
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <!-- this script is to help evaluate your deployed project -->
+    <script src='./dependencies/evaluation.js'></script>
+    <!-- this is the testing function for your logic -->
+    <script src='./dependencies/testing.js'></script>
+    <link rel="stylesheet" href="style.css"/>
+    
+    
+  </head>
 
-  <!-- this script is to help evaluate your deployed project -->
-  <script src='./dependencies/evaluation.js'></script>
-  <!-- this is the testing function for your logic -->
-  <script src='./dependencies/testing.js'></script>
+  <body>
+  
+    <form id="main">
+      <div class="values">
+      Value 1 : <input type="text" id="value1"/><br>
+      Value 2 : <input type="text" id="value2"/><br>
+      Operator :
+      <select class="select" id="operator">
+        <option value="add">Add</option>
+        <option value="min">Minus</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+      </select> 
+      <button class ="calculatebutton" type="button">Calculate</button>
+      </div> 
+    </form>
+  
+    <div id="result"></div>
 
-</head>
-
-<body>
-
-</body>
-
-</html>
+  </body>
+    <script src="./listener.js"></script>
+  </html>
