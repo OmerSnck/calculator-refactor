@@ -3,4 +3,3 @@ function calc() {
     var b = parseInt(document.querySelector("#valu2").value);
     var op = document.querySelector("#operator").value;
     var calculate;
-}
