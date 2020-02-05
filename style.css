@@ -29,13 +29,13 @@ body{
   
   }
   
-  .result{
-    color:red;
-    font-size: 33px;
+  #result{
+    color: rgb(37, 219, 20);
+    font-size: 100px;
     text-align: center;
   }
 
-  .calculatebutton{
+  #calculatebutton{
     radius: 20px;
     color: red;
     font-size: 15px;
