@@ -40,6 +40,7 @@ function doMath(operation, a, b) {
   if (typeof b !== 'number') {
     throw new Error('b should be a number');
   }
+  } 
   // write your code below this comment:
   function calc () {
     var a = parseInt(document.querySelector("#value1").value);
