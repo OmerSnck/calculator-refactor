@@ -1,4 +1,5 @@
-> * Follow [this tutorial from `mmtuts`](https://www.youtube.com/watch?v=qQEYAOPWDzk) and refactor your finished code into the files of this repository.  Be sure to organize your development process using Git Branches
-> * To learn more about how to organize your code & how to write development-strategies for this project, you can study the [using-user-input exercises](https://github.com/hackyourfuturebelgium/using-user-input)
-> * And of course, don't be limited by the tutorial!  It's just a starting point.  After making the base project work, follow your imagination
-> * Branching: for this project you should organize your branches basesd on _concern_ instead of user story.  If you look in the `development-strategy` template file you will find that there are a series of tables, the code for each table should be developed on it's own branch.  You can also find information on what the branches should be called in the students/module overview app for your class, and the assignment in the week's README
+Trying to do this project provided to better understand the seperation of concerns. It is supposed to be 3 different type of javascript file: listener.js, logic.js. and handler.js and also HTML and CSS. Each one implements a single user story, and each one is organized the same way. By this way i created 5 branches as same names. 
+
+I used Html, CSS and Java Script to prepare this calculator. And also i learned to isolate and integrate the Javascript code in an HTML document.
+
+Exercises helped so much to understand.
